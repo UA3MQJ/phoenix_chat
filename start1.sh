@@ -1,0 +1,1 @@
+PORT=4010 elixir --name n1@127.0.0.1 --cookie 123456 --erl "-config sys.config" -S mix phx.server

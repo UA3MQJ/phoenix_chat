@@ -1,0 +1,11 @@
+FROM elixir:1.7.4
+LABEL authors="Alexey Bolshakov <ua3mqj@gmail.com>"
+MAINTAINER UA3MQJ <UA3MQJ@gmail.com>
+ADD . /app
+WORKDIR /app
+RUN mix local.hex --force
+RUN mix local.rebar --force
+RUN mix deps.get
+RUN mix compile
+EXPOSE 4011
+CMD ./start2.sh

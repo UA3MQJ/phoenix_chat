@@ -1,0 +1,140 @@
+2019/05/17 01:07:02 [emerg] 7974#7974: host not found in upstream "my-upstream" in /home/sea/chat/priv/nginx/conf/nginx.conf:13
+2019/05/17 01:08:47 [emerg] 8000#8000: "upstream" directive is not allowed here in /home/sea/chat/priv/nginx/conf/nginx.conf:7
+2019/05/17 01:09:10 [emerg] 8045#8045: "upstream" directive is not allowed here in /home/sea/chat/priv/nginx/conf/nginx.conf:7
+2019/05/17 01:10:03 [emerg] 8049#8049: "upstream" directive is not allowed here in /home/sea/chat/priv/nginx/conf/nginx.conf:13
+2019/05/17 01:13:35 [emerg] 8058#8058: "upstream" directive is not allowed here in /home/sea/chat/priv/nginx/conf/nginx.conf:1
+2019/05/17 01:16:11 [emerg] 8073#8073: "upstream" directive is not allowed here in /home/sea/chat/priv/nginx/conf/nginx.conf:1
+2019/05/17 01:17:45 [emerg] 8083#8083: "proxy_pass" directive is not allowed here in /home/sea/chat/priv/nginx/conf/nginx.conf:7
+2019/05/17 01:18:03 [emerg] 8085#8085: "proxy_pass" directive is not allowed here in /home/sea/chat/priv/nginx/conf/nginx.conf:7
+2019/05/17 01:19:08 [emerg] 8093#8093: no "events" section in configuration
+2019/05/17 01:20:29 [error] 8099#8099: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4000/", host: "127.0.0.1:4001"
+2019/05/17 01:22:18 [notice] 8109#8109: signal process started
+2019/05/17 01:22:21 [error] 8110#8110: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4000/", host: "127.0.0.1:4001"
+2019/05/17 01:22:36 [notice] 8113#8113: signal process started
+2019/05/17 01:22:57 [notice] 8118#8118: signal process started
+2019/05/17 01:24:18 [notice] 8198#8198: signal process started
+2019/05/17 01:25:19 [error] 8199#8199: *15 connect() to [2a00:1148:db00:0:b0b0::1]:80 failed (101: Network is unreachable) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://[2a00:1148:db00:0:b0b0::1]:80/", host: "127.0.0.1:4001"
+2019/05/17 01:25:34 [notice] 8242#8242: signal process started
+2019/05/17 01:25:55 [notice] 8249#8249: signal process started
+2019/05/17 01:25:55 [notice] 8252#8252: signal process started
+2019/05/17 01:35:04 [notice] 9687#9687: signal process started
+2019/05/17 01:37:30 [error] 9688#9688: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 01:50:16 [error] 9688#9688: *46 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 01:52:37 [notice] 10152#10152: signal process started
+2019/05/17 01:52:39 [notice] 10155#10155: signal process started
+2019/05/17 01:52:42 [error] 10156#10156: *48 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:04:36 [notice] 10207#10207: signal process started
+2019/05/17 02:04:37 [notice] 10210#10210: signal process started
+2019/05/17 02:04:39 [error] 10211#10211: *50 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:11:25 [emerg] 10282#10282: invalid parameter "slow_start=30s" in /home/sea/chat/priv/nginx/conf/nginx.conf:23
+2019/05/17 02:11:44 [notice] 10284#10284: signal process started
+2019/05/17 02:11:45 [notice] 10288#10288: signal process started
+2019/05/17 02:11:47 [error] 10289#10289: *52 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:18:14 [notice] 10320#10320: signal process started
+2019/05/17 02:18:15 [notice] 10323#10323: signal process started
+2019/05/17 02:18:16 [error] 10324#10324: *54 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:18:16 [error] 10324#10324: *54 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:18:16 [error] 10324#10324: *54 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:18:17 [error] 10324#10324: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://backend/abc", host: "127.0.0.1:4001"
+2019/05/17 02:18:18 [error] 10324#10324: *59 no live upstreams while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://backend/abc", host: "127.0.0.1:4001"
+2019/05/17 02:18:19 [error] 10324#10324: *60 no live upstreams while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://backend/abc", host: "127.0.0.1:4001"
+2019/05/17 02:23:59 [notice] 10354#10354: signal process started
+2019/05/17 02:24:01 [error] 10355#10355: *61 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:24:01 [error] 10355#10355: *61 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:24:02 [error] 10355#10355: *64 no live upstreams while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://backend/abc", host: "127.0.0.1:4001"
+2019/05/17 02:24:54 [notice] 10361#10361: signal process started
+2019/05/17 02:24:55 [notice] 10364#10364: signal process started
+2019/05/17 02:24:55 [notice] 10367#10367: signal process started
+2019/05/17 02:24:57 [error] 10368#10368: *65 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:24:57 [error] 10368#10368: *65 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:28:40 [emerg] 10383#10383: invalid parameter "fail_timeouts=2s" in /home/sea/chat/priv/nginx/conf/nginx.conf:34
+2019/05/17 02:29:03 [notice] 10389#10389: signal process started
+2019/05/17 02:29:04 [error] 10390#10390: *68 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:29:04 [error] 10390#10390: *68 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:29:45 [notice] 10393#10393: signal process started
+2019/05/17 02:30:38 [notice] 10400#10400: signal process started
+2019/05/17 02:30:39 [error] 10401#10401: *71 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:30:39 [error] 10401#10401: *71 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:31:58 [notice] 10415#10415: signal process started
+2019/05/17 02:32:13 [error] 10416#10416: *76 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:33:07 [notice] 10423#10423: signal process started
+2019/05/17 02:33:08 [notice] 10426#10426: signal process started
+2019/05/17 02:33:09 [error] 10427#10427: *80 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:34:19 [notice] 10435#10435: signal process started
+2019/05/17 02:34:20 [error] 10436#10436: *84 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:34:26 [error] 10436#10436: *88 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:34:35 [error] 10436#10436: *94 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:39:10 [notice] 10647#10647: signal process started
+2019/05/17 02:39:12 [error] 10648#10648: *98 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:39:49 [notice] 10651#10651: signal process started
+2019/05/17 02:39:50 [error] 10652#10652: *102 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:39:50 [error] 10652#10652: *102 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:40:51 [notice] 10658#10658: signal process started
+2019/05/17 02:40:54 [error] 10659#10659: *107 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:40:54 [error] 10659#10659: *107 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:44:00 [notice] 10817#10817: signal process started
+2019/05/17 02:44:02 [error] 10818#10818: *112 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:44:36 [notice] 10821#10821: signal process started
+2019/05/17 02:44:37 [error] 10822#10822: *116 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:46:13 [notice] 10833#10833: signal process started
+2019/05/17 02:46:15 [error] 10834#10834: *120 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:46:23 [error] 10834#10834: *126 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:47:10 [notice] 10842#10842: signal process started
+2019/05/17 02:47:11 [notice] 10845#10845: signal process started
+2019/05/17 02:47:12 [error] 10846#10846: *132 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:48:53 [notice] 10855#10855: signal process started
+2019/05/17 02:48:54 [error] 10856#10856: *138 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:49:20 [error] 10856#10856: *144 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:50:32 [notice] 10866#10866: signal process started
+2019/05/17 02:50:34 [notice] 10869#10869: signal process started
+2019/05/17 02:50:35 [error] 10870#10870: *150 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:50:49 [error] 10870#10870: *156 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:50:55 [notice] 10877#10877: signal process started
+2019/05/17 02:50:56 [error] 10878#10878: *162 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:51:56 [notice] 10884#10884: signal process started
+2019/05/17 02:52:05 [error] 10885#10885: *166 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:52:19 [error] 10885#10885: *178 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:53:25 [notice] 11036#11036: signal process started
+2019/05/17 02:53:26 [error] 11037#11037: *192 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:53:44 [error] 11037#11037: *206 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:54:39 [notice] 11331#11331: signal process started
+2019/05/17 02:54:48 [error] 11332#11332: *220 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 02:54:51 [notice] 11336#11336: signal process started
+2019/05/17 02:54:53 [error] 11337#11337: *224 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 12:46:54 [notice] 5518#5518: signal process started
+2019/05/17 12:47:32 [notice] 5526#5526: signal process started
+2019/05/17 12:47:33 [notice] 5529#5529: signal process started
+2019/05/17 12:48:52 [error] 5530#5530: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 12:49:51 [notice] 5713#5713: signal process started
+2019/05/17 12:50:00 [error] 5714#5714: *19 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 12:50:00 [error] 5714#5714: *19 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 12:50:00 [error] 5714#5714: *19 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 12:50:00 [error] 5714#5714: *19 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 12:52:25 [notice] 5870#5870: signal process started
+2019/05/17 12:52:27 [notice] 5873#5873: signal process started
+2019/05/17 12:52:34 [error] 5874#5874: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 13:00:55 [notice] 6041#6041: signal process started
+2019/05/17 13:01:02 [error] 6042#6042: *40 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 13:26:45 [error] 6042#6042: *47 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 13:26:45 [error] 6042#6042: *47 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 13:27:23 [notice] 6446#6446: signal process started
+2019/05/17 13:27:24 [notice] 6451#6451: signal process started
+2019/05/17 13:27:25 [error] 6452#6452: *54 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 13:27:26 [error] 6452#6452: *56 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 13:27:56 [notice] 6456#6456: signal process started
+2019/05/17 13:27:57 [notice] 6459#6459: signal process started
+2019/05/17 13:27:59 [error] 6460#6460: *58 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 13:28:01 [error] 6460#6460: *60 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 13:28:17 [notice] 6464#6464: signal process started
+2019/05/17 13:28:18 [notice] 6467#6467: signal process started
+2019/05/17 13:28:19 [notice] 6470#6470: signal process started
+2019/05/17 13:28:21 [error] 6471#6471: *62 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 13:34:41 [notice] 6631#6631: signal process started
+2019/05/17 13:34:42 [notice] 6634#6634: signal process started
+2019/05/17 13:34:49 [error] 6635#6635: *69 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 13:34:50 [error] 6635#6635: *71 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/17 14:01:13 [error] 6635#6635: *73 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abccurl HTTP/1.1", upstream: "http://127.0.0.1:4000/abccurl", host: "127.0.0.1:4001"
+2019/05/17 14:01:13 [error] 6635#6635: *73 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /abc HTTP/1.1", upstream: "http://127.0.0.1:4000/abc", host: "127.0.0.1:4001"
+2019/05/28 19:55:16 [error] 6635#6635: *77 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.110, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4000/", host: "192.168.1.251:4001"
+2019/05/28 19:55:16 [error] 6635#6635: *77 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.110, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4000/favicon.ico", host: "192.168.1.251:4001", referrer: "http://192.168.1.251:4001/"
+2019/05/28 19:58:27 [alert] 5147#5147: unlink() "/home/sea/chat/priv/nginx/logs/nginx.pid" failed (2: No such file or directory)

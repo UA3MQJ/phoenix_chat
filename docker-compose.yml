@@ -1,0 +1,21 @@
+version: '3'
+services:
+  testchat1:
+    build:
+      context: .
+      dockerfile: Dockerfile.1
+      args:
+        MIX_ENV: dev
+    environment:
+      PORT: 4010
+    network_mode: host
+
+  testchat2:
+    build:
+      context: .
+      dockerfile: Dockerfile.2
+      args:
+        MIX_ENV: dev
+    environment:
+      PORT: 4011
+    network_mode: host
