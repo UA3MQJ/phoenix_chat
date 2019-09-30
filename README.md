@@ -1,6 +1,9 @@
 # Chat
 
+Сделан на базе вот этой инструкции
 https://github.com/dwyl/phoenix-chat-example
+
+Подправлен под новый css. Добавлены скрипты для запуске в кластере, чтобы протестить шаринг WS каналов на кластере
 
 docker-compose run -p 4010:4010 testchat1
 docker-compose run -p 4010:4010 testchat2
